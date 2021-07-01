@@ -1,0 +1,22 @@
+.time-field {
+    margin-right: 30px;
+    .mat-form-field {
+        margin-right: 20px;
+    }
+}
+
+.time-picker {
+    width: 120px;
+    input {
+        width: 30px;
+        height: 16px;
+    }
+    input:first-child {
+        text-align: right;
+    }
+}
+
+.time-wrapper {
+    display: flex;
+    flex-direction: row;
+}

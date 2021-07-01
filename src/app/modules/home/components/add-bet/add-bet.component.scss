@@ -1,0 +1,54 @@
+.content {
+    padding: 15px;
+}
+
+.part {
+    margin-bottom: 20px;
+}
+
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 120px;
+    height: 120px;
+    margin-right: 12px;
+}
+
+.teams {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.teams-vs-title {
+    color: var(--primary-color);
+    font-weight: 500;
+    margin: 0 40px;
+}
+
+.single-team {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 200px;
+    align-items: center;
+    .selector {
+        margin-top: 20px;
+    }
+}
+
+.bet-wrapper {
+    .mat-form-field {
+        width: 120px;
+        margin-right: 10px;
+    }
+}
+
+.save {
+    button {
+        width: 150px;
+        height: 45px;
+    }
+}

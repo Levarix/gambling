@@ -1,0 +1,26 @@
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+
+    h1 {
+        margin-bottom: 0;
+    }
+    button {
+        margin-top: -5px;
+        text-align: left;
+        font-size: 16px;
+        .mat-icon {
+            margin-right: 7px;
+        }
+    }
+}
+
+.teams-content {
+    padding: 20px;
+}
+
+.team-card-content {
+    padding: 7px 0;
+}

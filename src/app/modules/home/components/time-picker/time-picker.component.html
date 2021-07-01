@@ -1,0 +1,30 @@
+<form [formGroup]="form" class="time-wrapper">
+    <div class="time-field">
+        <mat-form-field appearance="fill" class="time-picker">
+            <mat-label>Godzina rozpoczęcia</mat-label>
+            <input matInput formControlName="startAtHour" />
+            :
+            <input matInput formControlName="startAtMinute" />
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+            <mat-label>Data rozpoczęcia</mat-label>
+            <input matInput [matDatepicker]="pickerFrom" formControlName="startAt" />
+            <mat-datepicker-toggle matSuffix [for]="pickerFrom"></mat-datepicker-toggle>
+            <mat-datepicker #pickerFrom></mat-datepicker>
+        </mat-form-field>
+    </div>
+    <div class="time-field">
+        <mat-form-field appearance="fill" class="time-picker">
+            <mat-label>Godzina zakończenia</mat-label>
+            <input matInput formControlName="endAtHour" />
+            :
+            <input matInput formControlName="endAtMinute" />
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+            <mat-label>Data zakończenia</mat-label>
+            <input matInput [matDatepicker]="pickerTo" formControlName="endAt" />
+            <mat-datepicker-toggle matSuffix [for]="pickerTo"></mat-datepicker-toggle>
+            <mat-datepicker #pickerTo></mat-datepicker>
+        </mat-form-field>
+    </div>
+  </form>

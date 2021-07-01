@@ -1,0 +1,16 @@
+<div class="content">
+    <h3>Menu bukmachera</h3>
+    <mat-divider></mat-divider>
+    <div class="menu">
+        <a routerLink="/" routerLinkActive="active"
+            ><button mat-button [color]="activeUrl === '/' ? 'primary' : 'accent'">
+                <mat-icon>sports_soccer</mat-icon><span>Zakłady</span>
+            </button></a
+        >
+        <a routerLink="/teams" routerLinkActive="active"
+            ><button mat-button [color]="activeUrl.includes('teams') ? 'primary' : 'accent'">
+                <mat-icon>people</mat-icon><span>Zespoły</span>
+            </button></a
+        >
+    </div>
+</div>

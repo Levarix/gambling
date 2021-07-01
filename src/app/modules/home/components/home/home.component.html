@@ -1,0 +1,14 @@
+<div class="top-header">
+    <h1>Najnowsze zakłady bukmacherskie</h1>
+
+    <button mat-stroked-button color="primary" (click)="newBet()">
+        <mat-icon>add</mat-icon><span>Nowy zakład</span>
+    </button>
+</div>
+
+<mat-divider></mat-divider>
+<div class="matches-content">
+    <div *ngFor="let latestBet of latestBets">
+        <home-match-card [model]="latestBet"></home-match-card>
+    </div>
+</div>

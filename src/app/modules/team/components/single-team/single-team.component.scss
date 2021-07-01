@@ -1,0 +1,42 @@
+.logo-wrapper {
+    width: 140px;
+    height: 140px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+
+.logo-content {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+.logo-remove-button {
+  padding: 0;
+  min-width: 40px;
+}
+
+.edit-buttons {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    button {
+        margin-right: 10px;
+    }
+}
+
+.table-content {
+    margin-top: 50px;
+}
